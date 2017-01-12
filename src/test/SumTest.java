@@ -11,5 +11,10 @@ public class SumTest {
 	public void sumTest2() {
 		assertEquals(10, Sum.sum(7, 3));
 	}
+	
+	@Test
+	public void sumTest3() {
+		assertEquals(15, Sum.sum(7, 3, 5));
+	}
  
  }
