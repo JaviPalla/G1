@@ -15,6 +15,7 @@ public class RestaTest {
 	
 	@Test
 	public void restaTest3() {
+		//Volviendo a estado anterior para generar conflicto
 		assertEquals(-1, Resta.resta(7, 3, 5));
 	}
 	
