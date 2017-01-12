@@ -17,5 +17,10 @@ public class RestaTest {
 	public void restaTest3() {
 		assertEquals(-1, Resta.resta(7, 3, 5));
 	}
+	
+	@Test(expected = AssertionError.class)
+	public void restaTestNeg() {
+		assertEquals(10, Resta.resta(7, 3));
+	}
 
 }

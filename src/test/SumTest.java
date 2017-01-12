@@ -16,5 +16,10 @@ public class SumTest {
 	public void sumTest3() {
 		assertEquals(15, Sum.sum(7, 3, 5));
 	}
+	
+	@Test(expected = AssertionError.class)
+	public void sumTestNeg() {
+		assertEquals(4, Sum.sum(7, 3));
+	}
  
  }
